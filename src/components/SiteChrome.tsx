@@ -77,7 +77,12 @@ export function SiteFooter() {
               </a>
             </li>
             <li>
-              <a href="#" className="transition-colors hover:text-gold">
+              <a
+                href="https://youtu.be/1HhKFsfABSc?si=G2-zTZ3jGGjEb40L"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-colors hover:text-gold"
+              >
                 YouTube
               </a>
             </li>
