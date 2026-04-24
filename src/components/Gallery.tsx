@@ -27,8 +27,17 @@ export function Gallery() {
             <p className="mb-4 text-xs font-medium uppercase tracking-[0.4em] text-gold">
               Chapter III — The Journey
             </p>
-            <h2 className="max-w-[14ch] font-display text-4xl font-semibold leading-[1.1] md:text-5xl lg:text-6xl">
-              A city <span className="italic text-gradient-gold">felt</span>,
+            <h2
+              className="max-w-[14ch] font-display text-4xl font-semibold tracking-[-0.01em] md:text-5xl lg:text-6xl"
+              style={{
+                lineHeight: 1.25,
+                overflow: "visible",
+                transform: "translateZ(0)",
+                backfaceVisibility: "hidden",
+              }}
+            >
+              A city{" "}
+              <span className="inline-block pr-1 italic text-gradient-gold">felt</span>,
               <br />
               not just visited.
             </h2>
