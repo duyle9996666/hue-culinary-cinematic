@@ -61,11 +61,11 @@ export function Hero() {
 
       {/* content */}
       <div
-        className="relative z-10 mx-auto flex h-full w-full max-w-6xl flex-col items-center justify-center px-[6%] pt-32 pb-20 text-center md:px-[8%] lg:px-[10%]"
+        className="relative z-10 mx-auto flex h-full max-w-6xl flex-col items-center justify-center px-6 text-center"
         style={{ transform: `translate3d(0, ${scrolled * -0.15}px, 0)` }}
       >
         <p
-          className="animate-fade-up mb-10 inline-flex items-center gap-3 rounded-full glass px-5 py-2 text-[11px] font-medium uppercase tracking-[0.35em] text-gold"
+          className="animate-fade-up mb-6 inline-flex items-center gap-3 rounded-full glass px-5 py-2 text-[11px] font-medium uppercase tracking-[0.35em] text-gold"
           style={{ animationDelay: "0.1s" }}
         >
           <span className="h-1.5 w-1.5 rounded-full bg-gold shadow-[0_0_10px_var(--gold)]" />
@@ -73,23 +73,19 @@ export function Hero() {
         </p>
 
         <h1
-          className="animate-fade-up font-display font-semibold leading-[1.1] tracking-[0.005em] [text-wrap:balance] [text-shadow:0_4px_30px_rgba(0,0,0,0.6)]"
-          style={{
-            animationDelay: "0.25s",
-            fontSize: "clamp(2.5rem, 6.5vw, 5.5rem)",
-            maxWidth: "800px",
-          }}
+          className="animate-fade-up font-display font-semibold leading-[1.05] tracking-[-0.01em] text-[2.75rem] sm:text-6xl md:text-7xl lg:text-[6.5rem] [text-wrap:balance] [text-shadow:0_4px_30px_rgba(0,0,0,0.6)]"
+          style={{ animationDelay: "0.25s" }}
         >
           <span className="block">
             Discover the <span className="italic text-gradient-gold">Taste</span>
           </span>
-          <span className="mt-3 block">
+          <span className="mt-2 block">
             of <span className="italic text-gradient-gold">Huế</span>
           </span>
         </h1>
 
         <p
-          className="animate-fade-up mt-8 max-w-xl text-sm leading-[1.8] text-foreground/75 md:text-base [text-wrap:balance]"
+          className="animate-fade-up mt-10 max-w-lg text-sm leading-[1.8] text-foreground/75 md:text-base [text-wrap:balance]"
           style={{ animationDelay: "0.45s" }}
         >
           A cinematic journey through the imperial kitchens, lantern-lit alleys and family tables
@@ -97,7 +93,7 @@ export function Hero() {
         </p>
 
         <div
-          className="animate-fade-up mt-12 flex flex-col items-center gap-4 sm:flex-row"
+          className="animate-fade-up mt-10 flex flex-col items-center gap-4 sm:flex-row"
           style={{ animationDelay: "0.65s" }}
         >
           <a
