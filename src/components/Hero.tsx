@@ -73,12 +73,21 @@ export function Hero() {
         </p>
 
         <h1
-          className="animate-fade-up mx-auto max-w-[14ch] font-display font-semibold leading-[1.08] tracking-[-0.015em] text-[2.75rem] sm:text-6xl md:text-7xl lg:text-[6rem] [text-shadow:0_4px_30px_rgba(0,0,0,0.65)]"
-          style={{ animationDelay: "0.25s" }}
+          className="animate-fade-up mx-auto max-w-[14ch] font-display font-semibold tracking-[-0.015em] text-[2.75rem] sm:text-6xl md:text-7xl lg:text-[6rem] [text-shadow:0_4px_30px_rgba(0,0,0,0.65)]"
+          style={{
+            animationDelay: "0.25s",
+            lineHeight: 1.2,
+            overflow: "visible",
+            transform: "translateZ(0)",
+            backfaceVisibility: "hidden",
+          }}
         >
           <span className="block">Discover the Taste</span>
           <span className="mt-3 block">
-            of <span className="italic text-gradient-gold">Huế</span>
+            of{" "}
+            <span className="inline-block pr-2 italic text-gradient-gold">
+              Huế
+            </span>
           </span>
         </h1>
 
