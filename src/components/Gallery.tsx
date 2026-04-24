@@ -22,18 +22,18 @@ export function Gallery() {
   return (
     <section id="gallery" className="relative py-32 px-6">
       <div className="mx-auto max-w-7xl">
-        <div className="mb-16 flex flex-col items-end justify-between gap-6 md:flex-row md:items-end">
+        <div className="mb-16 grid items-center gap-10 md:grid-cols-2 md:gap-20">
           <div className="reveal">
             <p className="mb-4 text-xs font-medium uppercase tracking-[0.4em] text-gold">
               Chapter III — The Journey
             </p>
-            <h2 className="text-4xl md:text-6xl font-display font-semibold leading-[1.05]">
+            <h2 className="max-w-[14ch] font-display text-4xl font-semibold leading-[1.1] md:text-5xl lg:text-6xl">
               A city <span className="italic text-gradient-gold">felt</span>,
               <br />
               not just visited.
             </h2>
           </div>
-          <p className="reveal reveal-delay-1 max-w-sm text-sm leading-relaxed text-muted-foreground md:text-right">
+          <p className="reveal reveal-delay-1 max-w-md text-sm leading-relaxed text-muted-foreground md:text-base">
             Eight frames from a journey through alleys, palaces and family tables along the Perfume
             River.
           </p>
