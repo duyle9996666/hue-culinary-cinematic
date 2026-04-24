@@ -30,8 +30,16 @@ export function Hero() {
 
       {/* layered gradients for cinematic readability */}
       <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
+      {/* extra dark vignette for heading contrast */}
       <div
-        className="absolute inset-0 animate-gradient opacity-50 mix-blend-overlay"
+        className="absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(ellipse at center, oklch(0.06 0 0 / 0.55) 0%, oklch(0.06 0 0 / 0.75) 60%, oklch(0.06 0 0 / 0.9) 100%)",
+        }}
+      />
+      <div
+        className="absolute inset-0 animate-gradient opacity-40 mix-blend-overlay"
         style={{
           background:
             "linear-gradient(135deg, oklch(0.42 0.19 25 / 0.45) 0%, transparent 40%, oklch(0.86 0.09 82 / 0.25) 100%)",
@@ -65,16 +73,19 @@ export function Hero() {
         </p>
 
         <h1
-          className="animate-fade-up font-display text-5xl font-semibold leading-[0.95] tracking-tight md:text-7xl lg:text-[7.5rem]"
+          className="animate-fade-up font-display font-semibold leading-[1.05] tracking-[-0.01em] text-[2.75rem] sm:text-6xl md:text-7xl lg:text-[6.5rem] [text-wrap:balance] [text-shadow:0_4px_30px_rgba(0,0,0,0.6)]"
           style={{ animationDelay: "0.25s" }}
         >
-          Discover the <span className="italic text-gradient-gold">Taste</span>
-          <br />
-          of <span className="italic text-gradient-gold">Huế</span>
+          <span className="block">
+            Discover the <span className="italic text-gradient-gold">Taste</span>
+          </span>
+          <span className="mt-2 block">
+            of <span className="italic text-gradient-gold">Huế</span>
+          </span>
         </h1>
 
         <p
-          className="animate-fade-up mt-8 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg"
+          className="animate-fade-up mt-10 max-w-lg text-sm leading-[1.8] text-foreground/75 md:text-base [text-wrap:balance]"
           style={{ animationDelay: "0.45s" }}
         >
           A cinematic journey through the imperial kitchens, lantern-lit alleys and family tables
