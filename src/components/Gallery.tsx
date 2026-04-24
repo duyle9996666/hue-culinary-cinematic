@@ -20,10 +20,13 @@ const tiles = [
 
 export function Gallery() {
   return (
-    <section id="gallery" className="relative py-32 px-6">
+    <section id="gallery" className="relative" style={{ padding: "100px 8%" }}>
       <div className="mx-auto max-w-7xl">
-        <div className="mb-16 flex flex-col items-end justify-between gap-6 md:flex-row md:items-end">
-          <div className="reveal">
+        <div
+          className="mb-16 grid items-center gap-[60px]"
+          style={{ gridTemplateColumns: "1fr 1fr" }}
+        >
+          <div className="reveal" style={{ maxWidth: "500px" }}>
             <p className="mb-4 text-xs font-medium uppercase tracking-[0.4em] text-gold">
               Chapter III — The Journey
             </p>
@@ -33,7 +36,10 @@ export function Gallery() {
               not just visited.
             </h2>
           </div>
-          <p className="reveal reveal-delay-1 max-w-sm text-sm leading-relaxed text-muted-foreground md:text-right">
+          <p
+            className="reveal reveal-delay-1 text-sm leading-relaxed text-muted-foreground"
+            style={{ maxWidth: "400px" }}
+          >
             Eight frames from a journey through alleys, palaces and family tables along the Perfume
             River.
           </p>
