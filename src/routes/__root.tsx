@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "nhom12a4" },
+      { name: "description", content: "A cinematic website blending Vietnamese cuisine and luxury travel." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "nhom12a4" },
+      { property: "og:description", content: "A cinematic website blending Vietnamese cuisine and luxury travel." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "nhom12a4" },
+      { name: "twitter:description", content: "A cinematic website blending Vietnamese cuisine and luxury travel." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5d50ebca-6457-49d1-b8d1-d302940497df/id-preview-e2117343--fa5e9e3c-b5e5-4288-8f01-8a90012e8e53.lovable.app-1777021678176.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5d50ebca-6457-49d1-b8d1-d302940497df/id-preview-e2117343--fa5e9e3c-b5e5-4288-8f01-8a90012e8e53.lovable.app-1777021678176.png" },
     ],
     links: [
       {
