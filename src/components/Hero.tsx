@@ -73,13 +73,11 @@ export function Hero() {
         </p>
 
         <h1
-          className="animate-fade-up font-display font-semibold leading-[1.05] tracking-[-0.01em] text-[2.75rem] sm:text-6xl md:text-7xl lg:text-[6.5rem] [text-wrap:balance] [text-shadow:0_4px_30px_rgba(0,0,0,0.6)]"
+          className="animate-fade-up mx-auto max-w-[14ch] font-display font-semibold leading-[1.08] tracking-[-0.015em] text-[2.75rem] sm:text-6xl md:text-7xl lg:text-[6rem] [text-shadow:0_4px_30px_rgba(0,0,0,0.65)]"
           style={{ animationDelay: "0.25s" }}
         >
-          <span className="block">
-            Discover the <span className="italic text-gradient-gold">Taste</span>
-          </span>
-          <span className="mt-2 block">
+          <span className="block">Discover the Taste</span>
+          <span className="mt-3 block">
             of <span className="italic text-gradient-gold">Huế</span>
           </span>
         </h1>
